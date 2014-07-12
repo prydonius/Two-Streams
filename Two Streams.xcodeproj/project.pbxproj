@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842EC718196DEF9500A560F1 /* Vendor in Resources */ = {isa = PBXBuildFile; fileRef = 842EC717196DEF9500A560F1 /* Vendor */; };
+		84418EE719717224008C008C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84418EE519717224008C008C /* MainMenu.xib */; };
+		84418F2D197172E4008C008C /* PRYStreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C614041968241500159CDA /* PRYStreamViewController.xib */; };
+		84418F2E197172E4008C008C /* PRYFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C613FF1968074C00159CDA /* PRYFileViewController.xib */; };
+		84418F2F197172E4008C008C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846A7EEB194F902F0021C115 /* Images.xcassets */; };
+		84418F30197172E4008C008C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846A7EDC194F902E0021C115 /* InfoPlist.strings */; };
+		84418F31197172E4008C008C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 846A7EE2194F902E0021C115 /* Credits.rtf */; };
+		846A7ED4194F902E0021C115 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846A7ED3194F902E0021C115 /* Cocoa.framework */; };
+		846A7EE0194F902E0021C115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A7EDF194F902E0021C115 /* main.m */; };
+		846A7EE7194F902E0021C115 /* PRYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A7EE6194F902E0021C115 /* PRYAppDelegate.m */; };
+		846A7EF3194F902F0021C115 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846A7EF2194F902F0021C115 /* XCTest.framework */; };
+		846A7EF4194F902F0021C115 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846A7ED3194F902E0021C115 /* Cocoa.framework */; };
+		846A7EFC194F902F0021C115 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846A7EFA194F902F0021C115 /* InfoPlist.strings */; };
+		846A7EFE194F902F0021C115 /* Two_StreamsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A7EFD194F902F0021C115 /* Two_StreamsTests.m */; };
+		84C614001968074C00159CDA /* PRYFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C613FE1968074C00159CDA /* PRYFileViewController.m */; };
+		84C614051968241500159CDA /* PRYStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C614031968241500159CDA /* PRYStreamViewController.m */; };
+		84DF4C5719509F79007BB652 /* AMR_ANSIEscapeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF4C5619509F79007BB652 /* AMR_ANSIEscapeHelper.m */; };
+		84DF4C5D1950AD70007BB652 /* PRYPeerflixHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF4C5C1950AD70007BB652 /* PRYPeerflixHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846A7EF5194F902F0021C115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846A7EC8194F902E0021C115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846A7ECF194F902E0021C115;
+			remoteInfo = "Two Streams";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842EC717196DEF9500A560F1 /* Vendor */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Vendor; sourceTree = "<group>"; };
+		84418EE619717224008C008C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Two Streams/Base.lproj/MainMenu.xib"; sourceTree = "<group>"; };
+		846A7ED0194F902E0021C115 /* Two Streams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two Streams.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846A7ED3194F902E0021C115 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		846A7ED6194F902E0021C115 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		846A7ED7194F902E0021C115 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		846A7ED8194F902E0021C115 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		846A7EDB194F902E0021C115 /* Two Streams-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Two Streams-Info.plist"; sourceTree = "<group>"; };
+		846A7EDD194F902E0021C115 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		846A7EDF194F902E0021C115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		846A7EE1194F902E0021C115 /* Two Streams-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Two Streams-Prefix.pch"; sourceTree = "<group>"; };
+		846A7EE3194F902E0021C115 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		846A7EE5194F902E0021C115 /* PRYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRYAppDelegate.h; sourceTree = "<group>"; };
+		846A7EE6194F902E0021C115 /* PRYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRYAppDelegate.m; sourceTree = "<group>"; };
+		846A7EEB194F902F0021C115 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		846A7EF1194F902F0021C115 /* Two StreamsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two StreamsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846A7EF2194F902F0021C115 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		846A7EF9194F902F0021C115 /* Two StreamsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Two StreamsTests-Info.plist"; sourceTree = "<group>"; };
+		846A7EFB194F902F0021C115 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		846A7EFD194F902F0021C115 /* Two_StreamsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Two_StreamsTests.m; sourceTree = "<group>"; };
+		84C613FD1968074C00159CDA /* PRYFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRYFileViewController.h; sourceTree = "<group>"; };
+		84C613FE1968074C00159CDA /* PRYFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRYFileViewController.m; sourceTree = "<group>"; };
+		84C613FF1968074C00159CDA /* PRYFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRYFileViewController.xib; sourceTree = "<group>"; };
+		84C614021968241500159CDA /* PRYStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRYStreamViewController.h; sourceTree = "<group>"; };
+		84C614031968241500159CDA /* PRYStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRYStreamViewController.m; sourceTree = "<group>"; };
+		84C614041968241500159CDA /* PRYStreamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRYStreamViewController.xib; sourceTree = "<group>"; };
+		84DF4C5519509F79007BB652 /* AMR_ANSIEscapeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMR_ANSIEscapeHelper.h; path = ../../../../Downloads/AMR_ANSIEscapeHelper.h; sourceTree = "<group>"; };
+		84DF4C5619509F79007BB652 /* AMR_ANSIEscapeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMR_ANSIEscapeHelper.m; path = ../../../../Downloads/AMR_ANSIEscapeHelper.m; sourceTree = "<group>"; };
+		84DF4C5B1950AD70007BB652 /* PRYPeerflixHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRYPeerflixHelper.h; sourceTree = "<group>"; };
+		84DF4C5C1950AD70007BB652 /* PRYPeerflixHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRYPeerflixHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846A7ECD194F902E0021C115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846A7ED4194F902E0021C115 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846A7EEE194F902F0021C115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846A7EF4194F902F0021C115 /* Cocoa.framework in Frameworks */,
+				846A7EF3194F902F0021C115 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846A7EC7194F902E0021C115 = {
+			isa = PBXGroup;
+			children = (
+				842EC717196DEF9500A560F1 /* Vendor */,
+				846A7ED9194F902E0021C115 /* Two Streams */,
+				846A7EF7194F902F0021C115 /* Two StreamsTests */,
+				846A7ED2194F902E0021C115 /* Frameworks */,
+				846A7ED1194F902E0021C115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846A7ED1194F902E0021C115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846A7ED0194F902E0021C115 /* Two Streams.app */,
+				846A7EF1194F902F0021C115 /* Two StreamsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846A7ED2194F902E0021C115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				846A7ED3194F902E0021C115 /* Cocoa.framework */,
+				846A7EF2194F902F0021C115 /* XCTest.framework */,
+				846A7ED5194F902E0021C115 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		846A7ED5194F902E0021C115 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				846A7ED6194F902E0021C115 /* AppKit.framework */,
+				846A7ED7194F902E0021C115 /* CoreData.framework */,
+				846A7ED8194F902E0021C115 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		846A7ED9194F902E0021C115 /* Two Streams */ = {
+			isa = PBXGroup;
+			children = (
+				84DF4C5519509F79007BB652 /* AMR_ANSIEscapeHelper.h */,
+				84DF4C5619509F79007BB652 /* AMR_ANSIEscapeHelper.m */,
+				846A7EE5194F902E0021C115 /* PRYAppDelegate.h */,
+				846A7EE6194F902E0021C115 /* PRYAppDelegate.m */,
+				84C613FD1968074C00159CDA /* PRYFileViewController.h */,
+				84C614021968241500159CDA /* PRYStreamViewController.h */,
+				84C614031968241500159CDA /* PRYStreamViewController.m */,
+				84C614041968241500159CDA /* PRYStreamViewController.xib */,
+				84C613FE1968074C00159CDA /* PRYFileViewController.m */,
+				84C613FF1968074C00159CDA /* PRYFileViewController.xib */,
+				84DF4C5B1950AD70007BB652 /* PRYPeerflixHelper.h */,
+				84DF4C5C1950AD70007BB652 /* PRYPeerflixHelper.m */,
+				84418EE519717224008C008C /* MainMenu.xib */,
+				846A7EEB194F902F0021C115 /* Images.xcassets */,
+				846A7EDA194F902E0021C115 /* Supporting Files */,
+			);
+			path = "Two Streams";
+			sourceTree = "<group>";
+		};
+		846A7EDA194F902E0021C115 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846A7EDB194F902E0021C115 /* Two Streams-Info.plist */,
+				846A7EDC194F902E0021C115 /* InfoPlist.strings */,
+				846A7EDF194F902E0021C115 /* main.m */,
+				846A7EE1194F902E0021C115 /* Two Streams-Prefix.pch */,
+				846A7EE2194F902E0021C115 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		846A7EF7194F902F0021C115 /* Two StreamsTests */ = {
+			isa = PBXGroup;
+			children = (
+				846A7EFD194F902F0021C115 /* Two_StreamsTests.m */,
+				846A7EF8194F902F0021C115 /* Supporting Files */,
+			);
+			path = "Two StreamsTests";
+			sourceTree = "<group>";
+		};
+		846A7EF8194F902F0021C115 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846A7EF9194F902F0021C115 /* Two StreamsTests-Info.plist */,
+				846A7EFA194F902F0021C115 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846A7ECF194F902E0021C115 /* Two Streams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846A7F01194F902F0021C115 /* Build configuration list for PBXNativeTarget "Two Streams" */;
+			buildPhases = (
+				846A7ECC194F902E0021C115 /* Sources */,
+				846A7ECD194F902E0021C115 /* Frameworks */,
+				846A7ECE194F902E0021C115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Two Streams";
+			productName = "Two Streams";
+			productReference = 846A7ED0194F902E0021C115 /* Two Streams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846A7EF0194F902F0021C115 /* Two StreamsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846A7F04194F902F0021C115 /* Build configuration list for PBXNativeTarget "Two StreamsTests" */;
+			buildPhases = (
+				846A7EED194F902F0021C115 /* Sources */,
+				846A7EEE194F902F0021C115 /* Frameworks */,
+				846A7EEF194F902F0021C115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846A7EF6194F902F0021C115 /* PBXTargetDependency */,
+			);
+			name = "Two StreamsTests";
+			productName = "Two StreamsTests";
+			productReference = 846A7EF1194F902F0021C115 /* Two StreamsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846A7EC8194F902E0021C115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PRY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					846A7EF0194F902F0021C115 = {
+						TestTargetID = 846A7ECF194F902E0021C115;
+					};
+				};
+			};
+			buildConfigurationList = 846A7ECB194F902E0021C115 /* Build configuration list for PBXProject "Two Streams" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846A7EC7194F902E0021C115;
+			productRefGroup = 846A7ED1194F902E0021C115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846A7ECF194F902E0021C115 /* Two Streams */,
+				846A7EF0194F902F0021C115 /* Two StreamsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846A7ECE194F902E0021C115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84418F2D197172E4008C008C /* PRYStreamViewController.xib in Resources */,
+				84418F2E197172E4008C008C /* PRYFileViewController.xib in Resources */,
+				84418F2F197172E4008C008C /* Images.xcassets in Resources */,
+				84418F30197172E4008C008C /* InfoPlist.strings in Resources */,
+				84418F31197172E4008C008C /* Credits.rtf in Resources */,
+				842EC718196DEF9500A560F1 /* Vendor in Resources */,
+				84418EE719717224008C008C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846A7EEF194F902F0021C115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846A7EFC194F902F0021C115 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846A7ECC194F902E0021C115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C614001968074C00159CDA /* PRYFileViewController.m in Sources */,
+				846A7EE7194F902E0021C115 /* PRYAppDelegate.m in Sources */,
+				84C614051968241500159CDA /* PRYStreamViewController.m in Sources */,
+				84DF4C5719509F79007BB652 /* AMR_ANSIEscapeHelper.m in Sources */,
+				84DF4C5D1950AD70007BB652 /* PRYPeerflixHelper.m in Sources */,
+				846A7EE0194F902E0021C115 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846A7EED194F902F0021C115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846A7EFE194F902F0021C115 /* Two_StreamsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846A7EF6194F902F0021C115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846A7ECF194F902E0021C115 /* Two Streams */;
+			targetProxy = 846A7EF5194F902F0021C115 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84418EE519717224008C008C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84418EE619717224008C008C /* Base */,
+			);
+			name = MainMenu.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		846A7EDC194F902E0021C115 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846A7EDD194F902E0021C115 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		846A7EE2194F902E0021C115 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846A7EE3194F902E0021C115 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		846A7EFA194F902F0021C115 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846A7EFB194F902F0021C115 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846A7EFF194F902F0021C115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		846A7F00194F902F0021C115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		846A7F02194F902F0021C115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Streams/Two Streams-Prefix.pch";
+				INFOPLIST_FILE = "Two Streams/Two Streams-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		846A7F03194F902F0021C115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Streams/Two Streams-Prefix.pch";
+				INFOPLIST_FILE = "Two Streams/Two Streams-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		846A7F05194F902F0021C115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Two Streams.app/Contents/MacOS/Two Streams";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Streams/Two Streams-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Two StreamsTests/Two StreamsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		846A7F06194F902F0021C115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Two Streams.app/Contents/MacOS/Two Streams";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Streams/Two Streams-Prefix.pch";
+				INFOPLIST_FILE = "Two StreamsTests/Two StreamsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846A7ECB194F902E0021C115 /* Build configuration list for PBXProject "Two Streams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846A7EFF194F902F0021C115 /* Debug */,
+				846A7F00194F902F0021C115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846A7F01194F902F0021C115 /* Build configuration list for PBXNativeTarget "Two Streams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846A7F02194F902F0021C115 /* Debug */,
+				846A7F03194F902F0021C115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846A7F04194F902F0021C115 /* Build configuration list for PBXNativeTarget "Two StreamsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846A7F05194F902F0021C115 /* Debug */,
+				846A7F06194F902F0021C115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846A7EC8194F902E0021C115 /* Project object */;
+}
